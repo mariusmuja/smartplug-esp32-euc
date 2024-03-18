@@ -32,3 +32,8 @@ euc_mac: <your EUC bluetooth MAC address>
   * open the smartplug Tasmota web page by typing the smartplug IP address in the a browser, go to the firmware update option and flash the `firmware.bin` file created in the previous step
   * the smartplug should automatically connect to the EUC on reboot (make sure you disconnect your phone the EUC first if connected / close the EUC app). Adopt the smartplug in Home Assistant or go to the smartplug web page to configure the charge stop & start voltage thresholds. Charging starts automatically if the EUC battery voltage is below the start threshold and stop when it gets to / above the stop threshold. You can also manually start the smartplug or start it with a configurable time delay.
 
+## Acknowledgements
+
+* https://github.com/enaon/eucWatch - which I used to see how to decode the information inside the Veteran bluetooth packets
+* https://gist.github.com/halomakes/8be3976a034ad32e37e9c3b315d25b64 - initial esphome template for the SwitchBot Smart Plug Mini
+* https://github.com/kendallgoto/switchbota - for the OTA procedure for replacing the default SwitchBot Smart Plug Mini firmware
