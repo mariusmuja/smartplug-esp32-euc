@@ -2,6 +2,8 @@
 
 This is an esphome-based firmware for ESP32 smartplugs (or any other ESP32 controlled relays) to control the charging of EUCs, specifically to turn off charging when a certain voltage (state of charge) is reached, in order to prevent fully charging which is detrimental to battery longevity.
 
+**WARNING**: Do fully charge the EUC batteries occasionally for the cells to be balanced.
+
 ## Supported EUCs
 
 This projects currently supports the following EUCs:
